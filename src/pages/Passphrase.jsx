@@ -29,7 +29,7 @@ export default function Passphrase() {
 
             for (let i = 0; i < data.words_numbers; i++) {
                 let random = randomizeArray(words);
-                let word = words[random];
+                let word = words[random].trim();
                 password += word + data.separator;
             }
             return password.slice(0, -1);
