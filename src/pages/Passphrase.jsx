@@ -14,7 +14,7 @@ export default function Passphrase() {
     }
 
     const generatePassword = async () => {
-        const url = "https://gist.githubusercontent.com/borisguery/6c94d67be8f531f986fc66e066236324/raw/9ef33d513efd4fd1a36b20825d14ec34df1d54f4/dico.txt";
+        const url = "https://raw.githubusercontent.com/Taknok/French-Wordlist/refs/heads/master/francais.txt";
         let password = '';
 
         try {
